@@ -1,0 +1,152 @@
+ul {
+	list-style-type: none;
+}
+
+button {
+	color: #01bf71;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.pricing-table-title {
+	text-transform: uppercase;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 2.6em;
+	color: #FFF;
+	margin-top: 15px;
+	text-align: left;
+	margin-bottom: 25px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.pricing-table-title a {
+	font-size: 0.6em;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	width: 0;
+	clear: both;
+}
+
+.pricing-wrapper {
+	width: 960px;
+	margin: 1rem auto 0;
+}
+
+.pricing-table {
+	margin: 0 10px;
+	text-align: center;
+	width: 300px;
+	border-radius: 10px;
+	float: left;
+	-webkit-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.pricing-table:hover {
+	-webkit-transform: scale(1.06);
+	-ms-transform: scale(1.06);
+	-o-transform: scale(1.06);
+	transform: scale(1.06);
+}
+
+.pricing-title {
+	color: #FFF;
+	background: #01bf71;
+	padding: 20px 0;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.pricing-table .price {
+	background: #2F3135;
+	color: #E7EEDB;
+	font-size: 1.5rem;
+	font-weight: 400;
+	padding: 10px 0;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.table-list {
+	color: #fff;
+	background: #2F3135;
+}
+
+.table-list li {
+	background: rgba(0,0,0,0.25);
+	font-size: 1.2em;
+	font-weight: 400;
+	padding: 10px 8px;
+}
+ 
+
+.table-list li span {
+	font-weight: 700;
+}
+
+.table-buy {
+	background: #2F3135;
+	padding: 15px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.table-buy .pricing-action {
+	color: #FFF;
+	background: #01bf71;
+	border: none;
+	padding: 10px 16px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 2px;
+	font-weight: 700;
+	font-size: 1.4em;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+	-webkit-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.table-buy .pricing-action:hover {
+	background: #02663c;
+}
+
+ @media screen and (max-width: 1300px) {
+ 	.pricing-wrapper {
+ 		width: 98%;
+ 	}
+
+ 	.pricing-table {
+ 		width: 30%;
+ 	}
+	
+	.table-list li {
+		font-size: 1.3em;
+	}
+
+ }
+
+ @media screen and (max-width: 815px) {
+ 	.pricing-wrapper {
+ 		width: 420px;
+ 	}
+
+ 	.pricing-table {
+ 		display: block;
+ 		float: none;
+ 		margin: 0 0 20px 0;
+ 		width: 100%;
+ 	}
+ }
+
+@media screen and (max-width: 479px) {
+	.pricing-wrapper {
+		width: 300px;
+	}
+} 
